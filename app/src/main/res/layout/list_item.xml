@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/gambar_film"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/teks"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Nama"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/teks2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Nama"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/teks3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Nama"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
